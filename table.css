@@ -1,0 +1,50 @@
+/* Navbar */
+.navbar ul {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Headings */
+.heading {
+    font-size: 2.rem;
+}
+
+/* Home */
+#home::before {
+    height: 918px;
+    width: 800px;
+}
+
+.main {
+    top: 20%;
+    right: 20%;
+}
+
+/* About */
+#pic {
+    flex-direction: column;
+    align-items: center;
+}
+
+#pic img {
+    width: 475px;
+    height: 300px;
+}
+
+#intro h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Contact */
+.input {
+    width: 60%;
+}
+
+#msg {
+    width: 55%;
+}
+
+#send {
+    width: 20%;
+}
